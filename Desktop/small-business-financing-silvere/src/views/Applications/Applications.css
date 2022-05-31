@@ -1,0 +1,56 @@
+.applicationBody {
+    width: 100vw;
+    max-width: 100vw
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPanel {
+    width: 20vw;
+    height: 100vw;
+    border-right: 1px solid #EFEFEF;
+    background-color: #FFF;
+}
+
+.pageName {
+    color: #605076;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.aMenuItems{
+    width: 90%;
+    margin-top: 20px;
+    color: #605076;
+
+}
+.aMenuItem{
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+margin: 20px 0px;
+}
+.aMenuTextActive{
+    color: #F88122;
+    font-weight: 600;
+}
+.aMenuNumberActive{
+    background-color: #F88122 !important;
+    font-weight: 600;
+color: #FFF
+}
+.aMenuNumber{
+width: auto;
+height: auto;
+background-color: #EFEFEF;
+border-radius: 100%;
+min-height: 30px;
+min-width: 30px;
+padding: 5px 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+font-size: 14px;
+}

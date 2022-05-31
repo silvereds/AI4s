@@ -1,0 +1,15 @@
+{
+  "short_name": "KBM Financing",
+  "name": "KBM Small Business Financing",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "scope": "/",
+  "description": "Dashboard for microfinances to check and grand loans to Small Businesses on Kola Business Manager"
+}

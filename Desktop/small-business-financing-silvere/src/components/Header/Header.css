@@ -1,0 +1,46 @@
+.headerBody{
+    width: 97vw;
+    height: 10vh;
+    min-height: 70px;
+    max-height: 70px;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.headerLinks{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.navLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px; 
+    height: 70px;
+    cursor: pointer;
+}
+.headerRight{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.tooltip{
+  cursor: help;
+  width: 60% !important;
+}
